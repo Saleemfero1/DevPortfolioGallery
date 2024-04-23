@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "./image.jpg";
+import logo from "./blob.svg";
 import "./App.css";
+import NavBar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p>BATMAN</p>
         <a
           className="App-link"
           href="https://github.com/Saleemfero1/DevPortfolioGallery/tree/dev"

@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -14,20 +18,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "baseUrl": ".",
-    "paths": {
-      "@/atoms/*": ["src/atoms/*"],
-      "@/clients/*": ["src/clients/*"],
-      "@/components/*": ["src/components/*"],
-      "@/hooks/*": ["src/hooks/*"],
-      "@/pages/*": ["src/pages/*"],
-      "@/styles/*": ["src/styles/*"],
-      "@/types/*": ["src/types/*"],
-      "@/utils/*": ["src/utils/*"],
-      "@/public/*": ["public/*"]
-    },
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
-  "include": ["react-app-env.d.ts", "**/*.ts", "**/*.tsx", "src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "react-app-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
