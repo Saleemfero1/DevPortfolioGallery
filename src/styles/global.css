@@ -1,0 +1,12 @@
+.devPrimaryColor {
+  color: rgb(61, 207, 182);
+}
+.devDarkColor {
+  color: rgb(22, 22, 22);
+}
+.devLightColor {
+  color: rgb(243, 249, 248);
+}
+h2 {
+  font-family: "Prosto+One";
+}

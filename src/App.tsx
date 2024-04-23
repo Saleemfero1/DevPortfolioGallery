@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./image.jpg";
 import "./App.css";
-
+import Home from "./components/home/home";
 function App() {
   return (
     <div className="App">
@@ -14,10 +14,12 @@ function App() {
           className="App-link"
           href="https://github.com/Saleemfero1/DevPortfolioGallery/tree/dev"
           target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           PORTFOLIO
         </a>
       </header>
+      <Home></Home>
     </div>
   );
 }
