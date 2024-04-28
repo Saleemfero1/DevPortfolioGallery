@@ -1,0 +1,46 @@
+.skills {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.skillHeader {
+  color: #3dcfb6;
+  margin: 1rem 0;
+}
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skillCard {
+  width: 10rem;
+  height: 10rem;
+  color: #f3f8f9;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  box-shadow: inset rgba(119, 234, 223, 0.25) 0px 44px 45px,
+    inset rgba(89, 246, 254, 0.12) 0px -8px 26px,
+    inset rgba(75, 249, 232, 0.12) 0px 8px 9px,
+    inset rgba(246, 244, 244, 0.17) 0px 8px 9px,
+    rgba(88, 255, 238, 0.09) 0px -3px 5px;
+}
+
+.skillIcon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+}
+@media screen and (max-width: 666px) {
+  .skills {
+    max-width: 100vw;
+    padding: 1rem;
+  }
+}

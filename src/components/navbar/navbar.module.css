@@ -1,0 +1,55 @@
+.navbar {
+  margin: 0 auto;
+  height: 5rem;
+  width: 100vw;
+  max-width: 80rem;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #161616;
+}
+
+.logo {
+  object-fit: cover;
+  width: 5rem;
+  height: 3rem;
+}
+
+.desktopMenu {
+}
+
+.desktopMenuListItem {
+  font-weight: 500;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+.desktopMenuListItem:hover {
+  padding-bottom: 0.5rem;
+  color: #3dcfb6;
+  border-bottom: 2px solid #3dcfb6;
+}
+
+.desktopMenuBtn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  color: #161616;
+  background-color: #3dcfb6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  /* border: 2px solid; */
+}
+
+.contactImg {
+  margin-right: 8px;
+  object-fit: cover;
+  width: 1.5rem;
+  height: 1.5rem;
+}

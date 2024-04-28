@@ -1,11 +1,14 @@
-import React from "react";
-import logo from "./image.jpg";
-import "./App.css";
-
+import Navbar from "./components/navbar/Navbar";
+import Intro from "./components/intro/intro";
+import About from "./components/about/about";
+import Skills from "./components/Skills/Skills";
 function App() {
   return (
-    <div className="App">
-      <h1>WelCome To DevGallery</h1>
+    <div>
+      <Navbar />
+      <Intro />
+      <About />
+      <Skills />
     </div>
   );
 }

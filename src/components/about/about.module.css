@@ -1,0 +1,32 @@
+.about {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.aboutHeader {
+  color: #3dcfb6;
+  margin-bottom: 1rem;
+}
+.aboutContent {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.aboutLine {
+  margin: 1rem 1rem 0 0;
+  padding: 0.1rem;
+  width: 8rem;
+  background-color: #3dcfb6;
+}
+.aboutText {
+  letter-spacing: 1px;
+  line-height: 1cm;
+}
+
+@media screen and (max-width: 999px) {
+  .about {
+    padding: 1rem;
+  }
+}
