@@ -10,6 +10,7 @@ import React from "../assets/physics.png";
 import NextJs from "../assets/NextJS.png";
 import Material from "../assets/icons8-material-ui-48.png";
 import Postman from "../assets/icons8-postman-api-64.png";
+import Camunda from "../assets/camunda.jpeg";
 export const skills = [
   {
     skill: "Java",
@@ -26,6 +27,12 @@ export const skills = [
   {
     skill: "Kotlin",
     skillIcon: Kotlin,
+    skillBgColor: "#1E2020",
+    skilltextColor: "#f3f8f9",
+  },
+  {
+    skill: "JavaScript",
+    skillIcon: Js,
     skillBgColor: "#1E2020",
     skilltextColor: "#f3f8f9",
   },
@@ -68,6 +75,12 @@ export const skills = [
   {
     skill: "Postman",
     skillIcon: Postman,
+    skillBgColor: "#1E2020",
+    skilltextColor: "#f3f8f9",
+  },
+  {
+    skill: "Camunda",
+    skillIcon: Camunda,
     skillBgColor: "#1E2020",
     skilltextColor: "#f3f8f9",
   },

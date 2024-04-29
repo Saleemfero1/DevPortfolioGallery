@@ -60,11 +60,12 @@
 @media screen and (max-width: 666px) {
   .profile {
     right: -5rem;
+    top: 3rem;
   }
   .intro {
     max-width: 100vw;
   }
   .introContent {
-    padding: 12rem 0.5rem 0 0.5rem;
+    padding: 8rem 0.5rem 0 0.5rem;
   }
 }

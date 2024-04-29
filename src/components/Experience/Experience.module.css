@@ -1,0 +1,61 @@
+.experience {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.experienceHeader {
+  color: #3dcfb6;
+  margin: 1rem 0;
+}
+
+/* card */
+.experienceCard {
+  display: flex;
+  margin-top: 3rem;
+}
+.duration {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.divider {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.circle {
+  background-color: #3dcfb6;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #3dcfb6, 5px -5px 5px #3dcfb6, -5px -5px 5px #3dcfb6,
+    -5px 5px 5px #3dcfb6;
+}
+.line {
+  margin-top: 1rem;
+  border: none;
+  background-color: rgba(75, 252, 229, 0.6);
+  height: 100%;
+}
+.singleLine {
+  color: white;
+  height: 100%;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+.role {
+  font-weight: bolder;
+  color: #3dcfb6;
+}
+.company {
+  font-weight: 200;
+  font-size: small;
+  font-style: italic;
+}
+.description {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
