@@ -25,6 +25,10 @@ const Intro = () => {
           </button>
         </Link>
       </div>
+      <div className={styles.circle}></div>
+      <div className={styles.circleTwo}></div>
+      <div className={styles.circleThree}></div>
+
       <img src={profile} alt="profile" className={styles.profile} />
     </section>
   );

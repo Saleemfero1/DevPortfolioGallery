@@ -14,6 +14,7 @@
 .experienceCard {
   display: flex;
   margin-top: 3rem;
+  padding: 0 2rem;
 }
 .duration {
   width: 10rem;

@@ -1,0 +1,11 @@
+.education {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.educationHeader {
+  color: #3dcfb6;
+  margin: 1rem 0;
+}

@@ -14,7 +14,7 @@ const Experience = () => {
             <ExperienceCard
               startDate={experience.startDate}
               endDate={experience.endDate}
-              role={experience.endDate}
+              role={experience.role}
               description={experience.desc}
               company={experience.company}
             />

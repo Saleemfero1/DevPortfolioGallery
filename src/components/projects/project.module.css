@@ -1,0 +1,74 @@
+.projects {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+  padding: 0 0 3rem 0;
+}
+
+.projectHeader {
+  color: #3dcfb6;
+  margin: 1rem 0;
+}
+
+.projectContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* card */
+.projectCard {
+  background-color: rgb(14, 13, 13);
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  box-shadow: rgba(119, 234, 223, 0.25) 0px 44px 45px,
+    rgba(89, 246, 254, 0.12) 0px -8px 26px, rgba(75, 249, 232, 0.12) 0px 8px 9px,
+    rgba(246, 244, 244, 0.17) 0px 8px 9px, rgba(88, 255, 238, 0.09) 0px -3px 5px;
+}
+.prjectContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.projectName {
+  color: #3dcfb6;
+  font-weight: 600;
+}
+.prjectLink a {
+  color: #161616;
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+  background-color: rgb(240, 248, 255);
+}
+.projectTechStack {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.projectTechStack li {
+  list-style: none;
+  font-weight: 200;
+  font-size: small;
+  font-style: italic;
+}
+.prjectImage {
+  width: 30%;
+  height: 100%;
+}
+.projectDesc {
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 666px) {
+  .prjectImage {
+    width: 100%;
+  }
+  .projectCard {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
