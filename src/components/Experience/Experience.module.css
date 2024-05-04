@@ -17,7 +17,7 @@
   padding: 0 2rem;
 }
 .duration {
-  width: 10rem;
+  min-width: 7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,4 +59,15 @@
 .description {
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .duration {
+    min-width: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .experience {
+    padding: 1rem;
+  }
 }

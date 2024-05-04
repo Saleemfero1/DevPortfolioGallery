@@ -11,7 +11,7 @@
 }
 .skillContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 3rem;
 }
@@ -24,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 1rem;
   align-items: center;
   box-shadow: inset rgba(119, 234, 223, 0.25) 0px 44px 45px,
     inset rgba(89, 246, 254, 0.12) 0px -8px 26px,
@@ -46,5 +47,11 @@
   .skillContainer {
     gap: 0.5rem;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skills {
+    padding: 1rem;
   }
 }

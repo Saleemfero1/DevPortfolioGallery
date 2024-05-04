@@ -104,4 +104,23 @@
   .introContent {
     padding: 8rem 0.5rem 0 0.5rem;
   }
+  .circleThree {
+    display: none;
+  }
+  .circleTwo {
+    display: none;
+  }
+  .circle {
+    border: none;
+    box-shadow: inset 2px 150px 10px #99e9d6;
+    background-color: #3b615e;
+    width: 100vw;
+    top: 4rem;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 700px;
+  }
+  .hello {
+    font-weight: 300;
+    color: rgb(244, 243, 241);
+  }
 }

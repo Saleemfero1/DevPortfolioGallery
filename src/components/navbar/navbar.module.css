@@ -53,3 +53,14 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+
+@media screen and (max-width: 666px) {
+  .desktopMenu {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    padding: 1rem;
+  }
+}

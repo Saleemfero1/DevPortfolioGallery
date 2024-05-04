@@ -1,0 +1,36 @@
+.contact {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.contactHeader {
+  color: #3dcfb6;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.contactBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 2rem;
+  border: 1px groove #3dcfb6;
+  width: 20rem;
+}
+
+@media screen and (max-width: 999px) {
+  .contact {
+    padding: 1rem;
+  }
+}

@@ -72,3 +72,8 @@
     gap: 1rem;
   }
 }
+@media screen and (max-width: 900px) {
+  .projects {
+    padding: 1rem;
+  }
+}
