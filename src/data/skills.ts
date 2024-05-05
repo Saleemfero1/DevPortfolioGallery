@@ -84,4 +84,10 @@ export const skills = [
     skillBgColor: "#1E2020",
     skilltextColor: "#f3f8f9",
   },
+  {
+    skill: "Python",
+    skillIcon: Python,
+    skillBgColor: "#1E2020",
+    skilltextColor: "#f3f8f9",
+  },
 ];
