@@ -59,15 +59,35 @@
 .description {
   letter-spacing: 1px;
   font-weight: 400;
+  text-align: justify;
 }
 
 @media screen and (max-width: 600px) {
   .duration {
     min-width: auto;
+    font-size: 12px;
+  }
+  .description {
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .experienceCard {
+    padding: 0;
+  }
+  .line {
+    width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
+
 @media screen and (max-width: 900px) {
   .experience {
     padding: 1rem;
+  }
+  .experienceCard {
+    padding: 0;
   }
 }
