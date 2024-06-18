@@ -13,4 +13,11 @@ export const educationData = [
     CollegeName: "Government College of Engineering Kalaburagi",
     marks: "78 Percentage",
   },
+  {
+    startDate: "June-2007",
+    endDate: "Oct-2017",
+    course: "SSLC",
+    CollegeName: "Berny Public School Kellur Tq Jevargi Dist Kalburagi ",
+    marks: "78 Percentage",
+  },
 ];

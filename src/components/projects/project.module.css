@@ -71,9 +71,15 @@
     flex-direction: column;
     gap: 1rem;
   }
+  .projectContainer {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 900px) {
   .projects {
     padding: 1rem;
+  }
+  .projectContainer {
+    padding: 0;
   }
 }

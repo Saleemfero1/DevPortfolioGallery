@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../assets/Saleem.png";
+import profile from "../../assets/saleem.png";
 import styles from "./intro.module.css";
 import { Link } from "react-scroll";
 import HireMeIcon from "../../assets/hireMe.png";

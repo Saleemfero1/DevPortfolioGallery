@@ -95,8 +95,8 @@
 
 @media screen and (max-width: 666px) {
   .profile {
-    right: -5rem;
-    top: 3rem;
+    left: -2rem;
+    top: -5rem;
   }
   .intro {
     max-width: 100vw;
