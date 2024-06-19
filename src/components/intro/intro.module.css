@@ -94,6 +94,9 @@
 }
 
 @media screen and (max-width: 666px) {
+  .introName {
+    color: rgba(6, 238, 215);
+  }
   .profile {
     left: -2rem;
     top: -5rem;
@@ -111,13 +114,14 @@
     display: none;
   }
   .circle {
-    border: none;
+    /* border: none;
     box-shadow: inset 2px 150px 10px #99e9d6;
     background-color: #3b615e;
     width: 100vw;
     top: 4rem;
     border-top-right-radius: 0%;
-    border-top-left-radius: 700px;
+    border-top-left-radius: 700px; */
+    display: none;
   }
   .hello {
     font-weight: 300;

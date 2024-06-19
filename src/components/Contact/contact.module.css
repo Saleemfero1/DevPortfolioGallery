@@ -27,6 +27,7 @@
   padding: 0.8rem 2rem;
   border: 1px groove #3dcfb6;
   width: 20rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 999px) {

@@ -27,10 +27,11 @@
   margin: 1.5rem;
   cursor: pointer;
 }
+
 .desktopMenuListItem:hover {
   padding-bottom: 0.5rem;
   color: #3dcfb6;
-  border-bottom: 2px solid #3dcfb6;
+  border-bottom: 2px solid hsl(170, 60%, 53%);
 }
 
 .desktopMenuBtn {
@@ -44,7 +45,6 @@
   justify-content: center;
   cursor: pointer;
   font-weight: 500;
-  /* border: 2px solid; */
 }
 
 .contactImg {
@@ -53,14 +53,50 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+.mobilemenu {
+  display: none;
+}
+.collapseBtn {
+  display: none;
+  font-size: 30px;
+}
 
 @media screen and (max-width: 666px) {
+  .mobilemenu {
+    padding: 80px;
+    background-color: rgba(61, 207, 182, 0.8);
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    top: 0;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .desktopMenuListItem:hover {
+    color: #030303;
+    border-bottom: 2px solid hsl(0, 0%, 2%);
+  }
   .desktopMenu {
     display: none;
+  }
+
+  .desktopMenuBtn {
+    display: none;
+  }
+
+  .collapseBtn {
+    display: block;
+    z-index: 2;
   }
 }
 @media screen and (max-width: 900px) {
   .navbar {
     padding: 1rem;
+  }
+  .desktopMenuBtn {
+    display: none;
   }
 }
