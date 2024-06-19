@@ -1,0 +1,14 @@
+.footer {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dev {
+  color: rgb(4, 240, 240);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+}

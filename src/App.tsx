@@ -6,6 +6,9 @@ import Experience from "./components/Experience/experience";
 import Project from "./components/projects/project";
 import Education from "./components/Education/education";
 import Contact from "./components/Contact/contact";
+import ScrollTop from "./components/scrollTop/ScrollTop";
+import Footer from "./components/footer/footer";
+
 function App() {
   return (
     <div>
@@ -17,6 +20,8 @@ function App() {
       <Project />
       <Education />
       <Contact />
+      <ScrollTop />
+      <Footer />
     </div>
   );
 }
