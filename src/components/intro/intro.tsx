@@ -17,7 +17,7 @@ const Intro = () => {
           <br />
           visually appealing and user friendly websites
         </p>
-        <Link to="contact">
+        <Link to="contact" smooth={true} duration={500}>
           <button className={styles.hireMeBtn}>
             {" "}
             <img src={HireMeIcon} alt="" className={styles.hireMeIcon} />
