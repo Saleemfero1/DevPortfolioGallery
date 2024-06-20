@@ -17,7 +17,7 @@ const Intro = () => {
           <br />
           visually appealing and user friendly websites
         </p>
-        <Link to="#">
+        <Link to="contact" smooth={true} duration={500}>
           <button className={styles.hireMeBtn}>
             {" "}
             <img src={HireMeIcon} alt="" className={styles.hireMeIcon} />
@@ -26,9 +26,6 @@ const Intro = () => {
         </Link>
       </div>
       <div className={styles.circle}></div>
-      <div className={styles.circleTwo}></div>
-      <div className={styles.circleThree}></div>
-
       <img src={profile} alt="profile" className={styles.profile} />
     </section>
   );

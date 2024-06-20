@@ -11,6 +11,6 @@ export const experience = [
     endDate: "August-2023",
     role: "Associate Software Engineer Intern",
     company: "Nextuple Inc Bangalore, IN",
-    desc: "-Enhanced data upload process using CSV files, optimizing data parsing and validation for improved accuracy and speed. <br/> -Applied reactive programming techniques to convert blocking code segments into non-blocking, enhancing application responsiveness. <br/> -Collaborated on frontend development and resolved frontend bugs, showcasing strong problem-solving skills for a more polished and functional application.<br/>",
+    desc: "-Enhanced data upload process using CSV files, optimizing data parsing and validation for improved accuracy and speed. -Applied reactive programming techniques to convert blocking code segments into non-blocking, enhancing application responsiveness. -Collaborated on frontend development and resolved frontend bugs, showcasing strong problem-solving skills for a more polished and functional application.",
   },
 ];
