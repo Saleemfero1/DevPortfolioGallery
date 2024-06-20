@@ -1,32 +1,35 @@
-import React from "react";
 import styles from "./project.module.css";
 import Inventory from "../../assets/IThree.jpeg";
-const ProjectCard = () => {
+export interface Project {
+  projectName: string;
+  projectDesc: string;
+  skills: string[];
+  gitLinks: {};
+}
+
+const ProjectCard = ({
+  projectName,
+  projectDesc,
+  skills,
+  gitLinks,
+}: Project) => {
   return (
     <div className={styles.projectCard}>
+      <img src={Inventory} className={styles.prjectImage} />
       <div className={styles.prjectContent}>
-        <div className={styles.projectName}>Order Management System</div>
-        <div className={styles.projectDesc}>
-          Leading the full-stack development efforts on the Reverse Logistics
-          Management track for our client, Dicks Sporting Goods. Effectively
-          addressing and resolving both backend and frontend issues to ensure
-          the smooth operation of the project. Engaging with stakeholders to
-          gather requirements, provide technical insights, and deliver solutions
-          aligned with business objectives. Staying updated on
-        </div>
+        <div className={styles.projectName}>{projectName}</div>
+        <div className={styles.projectDesc}>{projectDesc}</div>
         <div className={styles.projectTechStack}>
-          <li>ReactJS</li>
-          <li>Material UI</li>
-          <li>Javascript</li>
-          <li>GitHub</li>
-          <li>Typescript</li>
-          <li>Jest</li>
+          {skills.map((skill) => {
+            return <li>{skill}</li>;
+          })}
         </div>
         <div className={styles.prjectLink}>
-          <a href="intro">GitHub</a>
+          {Object.entries(gitLinks).map(([key, value]) => (
+            <a href="${value}">{key}</a>
+          ))}
         </div>
       </div>
-      <img src={Inventory} className={styles.prjectImage} />
     </div>
   );
 };
