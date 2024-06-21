@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import styles from "./navbar.module.css";
-import LOGO from "../../assets/logo.png";
-import { Link } from "react-scroll";
-import Message from "../../assets/chat.png";
-import { RiMenuFoldFill } from "react-icons/ri";
-import { RiMenuFold2Fill } from "react-icons/ri";
+import React, { useState } from 'react';
+import styles from './navbar.module.css';
+import LOGO from '../../assets/logo.png';
+import { Link } from 'react-scroll';
+import Message from '../../assets/chat.png';
+import { RiMenuFoldFill } from 'react-icons/ri';
+import { RiMenuFold2Fill } from 'react-icons/ri';
 const Navbar = () => {
   const [isCollapse, setIsCollapse] = useState(false);
   const handleCollapse = () => {
@@ -13,11 +13,11 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <img src={LOGO} alt="devLogo" className={styles.logo} />
+      <img src={LOGO} alt='devLogo' className={styles.logo} />
       <div className={styles.desktopMenu}>
         <Link
           className={styles.desktopMenuListItem}
-          to="intro"
+          to='intro'
           smooth={true}
           duration={500}
         >
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
         <Link
           className={styles.desktopMenuListItem}
-          to="about"
+          to='about'
           smooth={true}
           duration={500}
         >
@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <Link
           className={styles.desktopMenuListItem}
-          to="projects"
+          to='projects'
           smooth={true}
           duration={500}
         >
@@ -41,7 +41,7 @@ const Navbar = () => {
         </Link>
         <Link
           className={styles.desktopMenuListItem}
-          to="contact"
+          to='contact'
           smooth={true}
           duration={500}
         >
@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className={styles.mobilemenu}>
           <Link
             className={styles.desktopMenuListItem}
-            to="intro"
+            to='intro'
             smooth={true}
             duration={500}
           >
@@ -60,7 +60,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="about"
+            to='about'
             smooth={true}
             duration={500}
           >
@@ -68,7 +68,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="skills"
+            to='skills'
             smooth={true}
             duration={500}
           >
@@ -76,7 +76,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="experience"
+            to='experience'
             smooth={true}
             duration={500}
           >
@@ -84,7 +84,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="projects"
+            to='projects'
             smooth={true}
             duration={500}
           >
@@ -92,7 +92,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="education"
+            to='education'
             smooth={true}
             duration={500}
           >
@@ -100,7 +100,7 @@ const Navbar = () => {
           </Link>
           <Link
             className={styles.desktopMenuListItem}
-            to="contact"
+            to='contact'
             smooth={true}
             duration={500}
           >
@@ -115,15 +115,15 @@ const Navbar = () => {
         />
       ) : (
         <RiMenuFoldFill
-          color="white"
+          color='white'
           onClick={handleCollapse}
           className={styles.collapseBtn}
         />
       )}
 
       <button className={styles.desktopMenuBtn}>
-        {" "}
-        <img src={Message} alt="" className={styles.contactImg} />
+        {' '}
+        <img src={Message} alt='' className={styles.contactImg} />
         Contact Me
       </button>
     </nav>

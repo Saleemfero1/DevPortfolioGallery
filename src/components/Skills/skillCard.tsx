@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./Skills.module.css";
+import React from 'react';
+import styles from './Skills.module.css';
 
 interface SkillCard {
-  skillIcon: any;
+  skillIcon: 'jpeg' | 'png' | string;
   skillName: string;
   bgColor?: string;
   color?: string;
@@ -11,8 +11,8 @@ interface SkillCard {
 const SkillCard = ({
   skillIcon,
   skillName,
-  bgColor = "#3dcfb6",
-  color = "#161616",
+  bgColor = '#3dcfb6',
+  color = '#161616',
 }: SkillCard) => {
   return (
     <div
@@ -22,7 +22,7 @@ const SkillCard = ({
         color: color,
       }}
     >
-      <img src={skillIcon} className={styles.skillIcon} alt="skillIcon" />
+      <img src={skillIcon} className={styles.skillIcon} alt='skillIcon' />
       <div className={styles.skillName}>{skillName}</div>
     </div>
   );

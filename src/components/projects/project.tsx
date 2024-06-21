@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import ProjectCard from "./projectCard";
-import styles from "./project.module.css";
-import { projects } from "src/data/projects";
-import { IoIosArrowForward } from "react-icons/io";
-import { IoIosArrowBack } from "react-icons/io";
-import { AnimatePresence, motion } from "framer-motion";
+import React, { useState } from 'react';
+import ProjectCard from './projectCard';
+import styles from './project.module.css';
+import { projects } from 'src/data/projects';
+import { IoIosArrowForward } from 'react-icons/io';
+import { IoIosArrowBack } from 'react-icons/io';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const Project = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevClick = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+      prevIndex === 0 ? projects.length - 1 : prevIndex - 1,
     );
   };
 
   const handleNextClick = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === projects.length - 1 ? 0 : prevIndex + 1
+      prevIndex === projects.length - 1 ? 0 : prevIndex + 1,
     );
   };
 
@@ -32,7 +32,7 @@ const Project = () => {
       x: 0,
       opacity: 1,
       transition: {
-        x: { type: "spring", stiffness: 300, damping: 30 },
+        x: { type: 'spring', stiffness: 300, damping: 30 },
         opacity: { duration: 0.2 },
       },
     },
@@ -41,7 +41,7 @@ const Project = () => {
         x: direction < 0 ? 1000 : -1000,
         opacity: 0,
         transition: {
-          x: { type: "spring", stiffness: 300, damping: 30 },
+          x: { type: 'spring', stiffness: 300, damping: 30 },
           opacity: { duration: 0.2 },
         },
       };
@@ -51,13 +51,13 @@ const Project = () => {
   const direction = 1;
 
   return (
-    <section id="projects" className={styles.projects}>
+    <section id='projects' className={styles.projects}>
       <div className={styles.projectHeader}>
         <h3>Projects</h3>
       </div>
       <div className={styles.arrowContainer}>
         <button className={styles.arrow} onClick={handlePrevClick}>
-          <IoIosArrowBack color="white" />
+          <IoIosArrowBack color='white' />
         </button>
         <div className={styles.projectContainer}>
           <AnimatePresence initial={false} custom={direction}>
@@ -65,9 +65,9 @@ const Project = () => {
               key={currentIndex}
               custom={direction}
               variants={variants}
-              initial="enter"
-              animate="center"
-              exit="exit"
+              initial='enter'
+              animate='center'
+              exit='exit'
               className={styles.slide}
             >
               {projects.map((project, index) => {
@@ -87,7 +87,7 @@ const Project = () => {
           </AnimatePresence>
         </div>
         <button className={styles.arrow} onClick={handleNextClick}>
-          <IoIosArrowForward color="white" />
+          <IoIosArrowForward color='white' />
         </button>
       </div>
     </section>
