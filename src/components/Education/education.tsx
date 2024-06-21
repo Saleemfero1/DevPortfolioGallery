@@ -1,17 +1,18 @@
-import React from "react";
-import ExperienceCard from "../Experience/experienceCard";
-import { educationData } from "src/data/education";
-import styles from "./Education.module.css";
+import React from 'react';
+import ExperienceCard from '../Experience/experienceCard';
+import { educationData } from 'src/data/education';
+import styles from './Education.module.css';
 const Education = () => {
   return (
-    <section id="education" className={styles.education}>
+    <section id='education' className={styles.education}>
       <div className={styles.educationHeader}>
         <h3>Education</h3>
       </div>
-      <div className="educationContainer">
-        {educationData.map((education) => {
+      <div className='educationContainer'>
+        {educationData.map((education, index) => {
           return (
             <ExperienceCard
+              key={index}
               startDate={education.startDate}
               endDate={education.endDate}
               role={education.CollegeName}
