@@ -11,6 +11,8 @@ import NextJs from '../assets/NextJS.png';
 import Material from '../assets/icons8-material-ui-48.png';
 import Postman from '../assets/icons8-postman-api-64.png';
 import Camunda from '../assets/camunda.jpeg';
+import MySql from '../assets/mysql.png';
+
 export const skills = [
   {
     skill: 'Java',
@@ -69,6 +71,12 @@ export const skills = [
   {
     skill: 'Material UI',
     skillIcon: Material,
+    skillBgColor: '#1E2020',
+    skilltextColor: '#f3f8f9',
+  },
+  {
+    skill: 'MySql',
+    skillIcon: MySql,
     skillBgColor: '#1E2020',
     skilltextColor: '#f3f8f9',
   },
