@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Experience.module.css';
 interface ExperienceCard {
   startDate: string;
@@ -7,6 +6,7 @@ interface ExperienceCard {
   company: string;
   description: string;
 }
+
 const ExperienceCard = ({
   startDate,
   endDate,

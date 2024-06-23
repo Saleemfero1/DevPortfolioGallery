@@ -5,16 +5,19 @@
   overflow: hidden;
   position: relative;
 }
+
 .skillHeader {
   color: #3dcfb6;
   margin: 1rem 0;
 }
+
 .skillContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 3rem;
 }
+
 .skillCard {
   width: 10rem;
   height: 10rem;
@@ -39,6 +42,15 @@
   border-radius: 50%;
   border: none;
 }
+
+/* Tablate Response */
+@media screen and (max-width: 900px) {
+  .skills {
+    padding: 1rem;
+  }
+}
+
+/* Mobile Response */
 @media screen and (max-width: 666px) {
   .skills {
     max-width: 100vw;
@@ -47,11 +59,5 @@
   .skillContainer {
     gap: 0.5rem;
     flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .skills {
-    padding: 1rem;
   }
 }
