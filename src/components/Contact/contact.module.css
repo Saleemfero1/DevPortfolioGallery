@@ -20,6 +20,7 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
 .contactBtn {
   display: flex;
   align-items: center;

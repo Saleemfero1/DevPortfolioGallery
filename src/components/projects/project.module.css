@@ -19,7 +19,7 @@
   gap: 5rem;
 }
 
-/* card */
+/* ProjectCard styles */
 .projectCard {
   padding: 1rem;
   border-radius: 4px;
@@ -114,6 +114,7 @@
     padding: 0;
   }
 }
+
 @media screen and (max-width: 900px) {
   .projects {
     padding: 1rem;

@@ -1,7 +1,6 @@
-import React from 'react';
 import styles from './Skills.module.css';
 
-interface SkillCard {
+interface ISkillCard {
   skillIcon: 'jpeg' | 'png' | string;
   skillName: string;
   bgColor?: string;
@@ -13,7 +12,7 @@ const SkillCard = ({
   skillName,
   bgColor = '#3dcfb6',
   color = '#161616',
-}: SkillCard) => {
+}: ISkillCard) => {
   return (
     <div
       className={styles.skillCard}

@@ -53,14 +53,27 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+
 .mobilemenu {
   display: none;
 }
+
 .collapseBtn {
   display: none;
   font-size: 30px;
 }
 
+/* Tab Response */
+@media screen and (max-width: 900px) {
+  .navbar {
+    padding: 1rem;
+  }
+  .desktopMenuBtn {
+    display: none;
+  }
+}
+
+/* Mobile Response */
 @media screen and (max-width: 666px) {
   .mobilemenu {
     padding: 80px;
@@ -90,13 +103,5 @@
   .collapseBtn {
     display: block;
     z-index: 2;
-  }
-}
-@media screen and (max-width: 900px) {
-  .navbar {
-    padding: 1rem;
-  }
-  .desktopMenuBtn {
-    display: none;
   }
 }

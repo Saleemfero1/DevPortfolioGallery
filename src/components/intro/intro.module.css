@@ -26,13 +26,16 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .hello {
   font-size: 1.75rem;
   font-weight: 100;
 }
+
 .introName {
   color: #3dcfb6;
 }
+
 .introPara {
   font-size: medium;
   font-weight: 300;
@@ -51,11 +54,13 @@
   font-size: medium;
   border: none;
 }
+
 .hireMeIcon {
   margin-right: 0.7rem;
   width: 2rem;
   height: 2rem;
 }
+
 .circle {
   border-right: 1px solid rgb(61, 207, 182, 0.8);
   padding: 0;
@@ -66,16 +71,17 @@
   width: 30vw;
   z-index: -3;
   border-radius: 50%;
-  /* box-shadow: inset 10px 10px 10px white; */
 }
 
 @media screen and (max-width: 666px) {
   .intro {
     height: calc(100vh - 12rem);
   }
+
   .introName {
     color: rgba(6, 238, 215);
   }
+
   .profile {
     left: 0;
     top: -1rem;
@@ -84,24 +90,23 @@
     border-radius: 10px;
     box-shadow: inset -3px -3px 100px black;
   }
+
   .introContent {
     justify-content: center;
   }
+
   .intro {
     max-width: 100vw;
   }
+
   .introContent {
     padding: 8rem 0.5rem 0 0.5rem;
   }
-  .circleThree {
-    display: none;
-  }
-  .circleTwo {
-    display: none;
-  }
+
   .circle {
     display: none;
   }
+
   .hello {
     font-weight: 300;
     color: rgb(244, 243, 241);
