@@ -1,5 +1,9 @@
+import Inventory from '../assets/IThree.jpeg';
+import WalletBanking from '../assets/WalletBanking.png';
+
 export const projects = [
   {
+    projectImage: Inventory,
     projectName: 'Tuple Inventory management',
     ProjectDesc:
       'Tuple Inventory Management is a web application that provides an intuitive interface for managing your inventory. Our goal is to help businesses efficiently track and control their inventory, streamline operations, and increase productivity',
@@ -10,6 +14,7 @@ export const projects = [
     },
   },
   {
+    projectImage: WalletBanking,
     projectName: 'Wallet Banking',
     ProjectDesc:
       'Tuple Inventory Management is a web application that provides an intuitive interface for managing your inventory. Our goal is to help businesses efficiently track and control their inventory, streamline operations, and increase productivity',
@@ -20,6 +25,7 @@ export const projects = [
     },
   },
   {
+    projectImage: Inventory,
     projectName: 'Protfolio WebApp',
     ProjectDesc:
       'Designed and developed a personal portfolio website using React and Material-UI (MUI), showcasing projects and skills in an interactive and visually appealing manner.',
@@ -27,6 +33,7 @@ export const projects = [
     gitLinks: { ui: 'https://github.com/Saleemfero1/DevPortfolioGallery.git' },
   },
   {
+    projectImage: Inventory,
     projectName: 'Examination Authority Demo',
     ProjectDesc:
       'EAD is an web based application ,intended to implement Online Seat Allocation based on Entrance Exam and Academic Details.',

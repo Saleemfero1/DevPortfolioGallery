@@ -1,9 +1,9 @@
 import styles from './project.module.css';
-import Inventory from '../../assets/IThree.jpeg';
 interface GitLinks {
   [key: string]: string | undefined;
 }
 export interface Project {
+  projectImage: 'jpeg' | 'png' | string;
   projectName: string;
   projectDesc: string;
   skills: string[];
@@ -11,6 +11,7 @@ export interface Project {
 }
 
 const ProjectCard = ({
+  projectImage,
   projectName,
   projectDesc,
   skills,
@@ -18,7 +19,7 @@ const ProjectCard = ({
 }: Project) => {
   return (
     <div className={styles.projectCard}>
-      <img src={Inventory} className={styles.prjectImage} />
+      <img src={projectImage} className={styles.prjectImage} />
       <div className={styles.prjectContent}>
         <div className={styles.projectName}>{projectName}</div>
         <div className={styles.projectDesc}>{projectDesc}</div>

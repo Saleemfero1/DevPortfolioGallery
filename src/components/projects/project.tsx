@@ -75,6 +75,7 @@ const Project = () => {
                   index === currentIndex && (
                     <ProjectCard
                       key={project.projectName}
+                      projectImage={project.projectImage}
                       projectName={project.projectName}
                       projectDesc={project.ProjectDesc}
                       skills={project.skills}
