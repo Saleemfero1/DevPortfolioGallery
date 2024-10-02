@@ -57,11 +57,11 @@ const Navbar = () => {
           className={styles.collapseBtn}
         />
       )}
-
-      <button className={styles.desktopMenuBtn}>
+      {/* TO DO: Add Contact button with all functionality and animations */}
+      {/* <button className={styles.desktopMenuBtn}>
         <img src={Message} alt='' className={styles.contactImg} />
         Contact Me
-      </button>
+      </button> */}
     </nav>
   );
 };
