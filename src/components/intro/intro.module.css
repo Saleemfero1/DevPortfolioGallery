@@ -1,5 +1,5 @@
 .intro {
-  height: calc(100vh - 4rem);
+  /* height: calc(100vh - 4rem); */
   width: 100vw;
   max-width: 80rem;
   margin: 0 auto;
@@ -20,7 +20,7 @@
   height: 100vh;
   width: 100vw;
   padding: 0.5rem;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -39,6 +39,7 @@
 .introPara {
   font-size: medium;
   font-weight: 300;
+  font-size: 1.5rem;
   letter-spacing: 1px;
 }
 
@@ -55,31 +56,17 @@
   border: none;
 }
 
-.hireMeIcon {
-  margin-right: 0.7rem;
-  width: 2rem;
-  height: 2rem;
-}
-
-.circle {
-  border-right: 1px solid rgb(61, 207, 182, 0.8);
-  padding: 0;
-  position: absolute;
-  top: 13rem;
-  right: 0;
-  height: 100vh;
-  width: 30vw;
-  z-index: -3;
-  border-radius: 50%;
-}
-
 @media screen and (max-width: 666px) {
   .intro {
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 50vh);
   }
 
   .introName {
     color: rgba(6, 238, 215);
+  }
+
+  .introPara {
+    font-size: 1rem;
   }
 
   .profile {
@@ -92,7 +79,10 @@
   }
 
   .introContent {
-    justify-content: center;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: start;
+    font-size: 2rem;
   }
 
   .intro {
@@ -100,7 +90,7 @@
   }
 
   .introContent {
-    padding: 8rem 0.5rem 0 0.5rem;
+    padding: 6rem 0.5rem 0 0.5rem;
   }
 
   .circle {
@@ -108,7 +98,7 @@
   }
 
   .hello {
-    font-weight: 300;
+    font-weight: 200;
     color: rgb(244, 243, 241);
   }
 }
